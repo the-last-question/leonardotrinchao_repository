@@ -45,7 +45,7 @@
 %----------------------------------------------------------
 \begin{document}
 
-\title{Desafio 2: Sensor Ultrassônico\\
+\title{Desafio 2: Sistema Embarcado com Sensor e Display\\
 {\footnotesize \textsuperscript{*} Sistemas Embarcados: Prof. Marco Reis - marco.reis@ba.docente.senai.br}
 }
 
@@ -57,5 +57,72 @@ leonardo.trinchao@aln.senaicimatec.edu.br}
 }
 
 \maketitle
+
+\begin{abstract}
+
+\end{abstract}
+    
+\begin{IEEEkeywords}
+    component, formatting, style, styling, insert
+\end{IEEEkeywords}
+    
+\section{Introdução}
+\subsection{Arduino}
+
+    Arduino é uma plataforma de prototipagem eletrônica, cujo principal objetivo é incorporar a ele 
+funções através de componentes como sensores, LED's, módulos, e outros. A partir disso, torna-se 
+possível criar sistemas embarcados versáteis para projetos em eletrônica, que consistem em criar desde 
+pequenos robôs com funções limitadas, até protótipos baseados na utilização de Internet das Coisas (IoT),
+automações residenciais, e outros.
+
+    Para realizar as ações desejadas pelo usuário, é necessário programar o Arduino. Para isso, utiliza-se 
+a linguagem de programação C/C++. Após ser programado, ele funciona sem a necessidade de um computador, por
+exemplo, devido à um \emph{loop} que existe em seu próprio código. Assim, a única exigência para o
+funcionamento do sistema é que haja uma fonte de alimentação.\\
+
+\subsubsection{Arduino Pricipal}
+
+    O Arduino Principal/Arduino Master recebe este nome devido à sua importância e relevância no projeto.
+Ele recebe este nome por ser o responsável por controlar todo o sistema embarcado, de forma que realiza
+cálculos matemáticos, operações e comandos envolvendo bibliotecas do próprio Arduino.
+
+\subsubsection{Arduino Secundário}
+
+    O Arduino Secundário/Arduino Slave é um sistema microprocessado que atua como suporte para o 
+Arduino Master, ou seja, sua função é complementar suas necessidades, de acordo com o que é exigido.
+Para que esse suporte seja realizado com êxito, é necessário comunicar os dois Arduinos, e para isso
+utiliza-se a Comunicação Serial.
+
+\subsection{Comunicação Serial}
+
+
+
+\subsection{Sensor Ultra-Sônico}
+
+    O Sensor Ultra-Sônico é um componente utilizado para captar a distância de um objeto, entre os pontos 
+de mínimo e máximo do sensor. O ponto de distância mínima é de 
+
+\subsection{LED RGB}
+
+
+
+\subsection{LCD Display}
+
+
+
+\section{Objetivos}
+
+\section{Desenvolvimento}
+
+\section{Resultados}
+    O Arduino Principal (ou Arduino Master), possui extrema importância quando almeja-se construir 
+um Sistema Embarcado. Ele é o cérebro do sistema microprocessado, e é o responsável por controlar
+os comandos executados em todo o sistema. Neste projeto, o Arduino Principal age de forma que proporciona
+o funcionamento pleno do sensor, atrelado à LED RGB, que emite a cor desejada, de acordo com a 
+distância que um objeto está do Sensor. Além disso, ele distingue qual a região de proximidade
+
+\section{Conclusões}
+
+\section{Referências}
 
 \end{document}
