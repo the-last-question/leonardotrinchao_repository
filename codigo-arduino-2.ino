@@ -1,3 +1,5 @@
+// ARDUINO SECUNDÁRIO/ARDUINO SLAVE
+
 #include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
 #include <string.h>
