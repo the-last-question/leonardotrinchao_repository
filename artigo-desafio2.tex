@@ -95,7 +95,28 @@ utiliza-se a Comunicação Serial.
 
 \subsection{Comunicação Serial}
 
+    É possível que, em um sistema, dois Arduinos exerçam um papel complementar, onde um não funciona
+perfeitamente sem o outro. Para sintonizar os dois Arduinos, é necessário criar um meio de Comunicação
+entre eles, e com isso surge a Comunicação Serial. Ela funciona de forma que um Arduino Principal realiza
+a principal parte do código, e pode existir um ou mais Arduinos Complementares, que exercem, como o próprio
+nome diz, funções complementares.
 
+    A partir disso, o Arduino Principal envia uma informação, seja ela um valor inteiro, uma letra ou uma
+\emph{string}, e o(s) Arduino(s) Complementar(es) recebem essa informação e a utilizam para realizar suas
+demais funções, como exibir essa informação em um \emph{LCD Display}. 
+
+    Para que essa comunicação seja possível, é necessário realizar alguns procedimentos antes, como:
+    \begin{itemize}
+        \item Conectar as portas TX (transmissão) e RX (recepção) dos Arduinos
+        \item Conectar as portas \emph{Ground} dos Arduinos
+        \item Uso da biblioteca \emph{SoftwareSerial.h} nos dois Arduinos
+        \item Uso do comando \emph{Serial.begin(9600)} dentro da \emph{void setup}, também nos dois
+        \item Uso de condição envolvendo \emph{Serial.available()} no Arduino Complementar
+        \item Receber o valor impresso no monitor serial do Arduino Pricipal utilizando 
+        \emph{Serial.readString()}
+        \item Atribuir esse valor à uma variável do tipo \emph{String}
+        \item Utilizar o comando \emph{Serial.flush()} para esperar toda a "passagem" da informação
+    \end{itemize}
 
 \subsection{Sensor Ultra-Sônico}
 
