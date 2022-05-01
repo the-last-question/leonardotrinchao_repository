@@ -78,7 +78,7 @@ automações residenciais, e outros.
     Para realizar as ações desejadas pelo usuário, é necessário programar o Arduino. Para isso, utiliza-se 
 a linguagem de programação C/C++. Após ser programado, ele funciona sem a necessidade de um computador, por
 exemplo, devido à um \emph{loop} que existe em seu próprio código. Assim, a única exigência para o
-funcionamento do sistema é que haja uma fonte de alimentação.\\
+funcionamento do sistema é que haja uma fonte de alimentação.
 
 \subsubsection{Arduino Pricipal}
 
@@ -107,40 +107,86 @@ demais funções, como exibir essa informação em um \emph{LCD Display}.
 
     Para que essa comunicação seja possível, é necessário realizar alguns procedimentos antes, como:
     \begin{itemize}
-        \item Conectar as portas TX (transmissão) e RX (recepção) dos Arduinos
-        \item Conectar as portas \emph{Ground} dos Arduinos
-        \item Uso da biblioteca \emph{SoftwareSerial.h} nos dois Arduinos
-        \item Uso do comando \emph{Serial.begin(9600)} dentro da \emph{void setup}, também nos dois
-        \item Uso de condição envolvendo \emph{Serial.available()} no Arduino Complementar
+        \item Conectar as portas TX (transmissão) e RX (recepção) dos Arduinos;
+        \item Conectar as portas \emph{Ground} dos Arduinos;
+        \item Uso da biblioteca \emph{SoftwareSerial.h} nos dois Arduinos;
+        \item Uso do comando \emph{Serial.begin(9600)} dentro da \emph{void setup}, também nos dois;
+        \item Uso de condição envolvendo \emph{Serial.available()} no Arduino Complementar;
         \item Receber o valor impresso no monitor serial do Arduino Pricipal utilizando 
-        \emph{Serial.readString()}
-        \item Atribuir esse valor à uma variável do tipo \emph{String}
-        \item Utilizar o comando \emph{Serial.flush()} para esperar toda a "passagem" da informação
+        \emph{Serial.readString()};
+        \item Atribuir esse valor à uma variável do tipo \emph{String};
+        \item Utilizar o comando \emph{Serial.flush()} para esperar toda a "passagem" da informação.
     \end{itemize}
 
-\subsection{Sensor Ultra-Sônico}
+\subsection{Sensor Ultrassônico}
 
-    O Sensor Ultra-Sônico é um componente utilizado para captar a distância de um objeto, entre os pontos 
-de mínimo e máximo do sensor. O ponto de distância mínima é de 
+    O Sensor Ultra-Sônico é um componente utilizado no Arduino para captar a distância de um objeto, 
+entre os pontos de mínimo e máximo, de acordo com a capacidade do sensor. O ponto de distância mínima 
+é de aproximadamente 3 centímetros, e o ponto de alcance máximo é de 330 centímetros. Ele é muito
+utilizado em indústrias, para detectar a posição de materiais granulados, fluidos e materiais em pó.
+O sensor capta o tempo e a velocidade de propagação das ondas ultrassônicas, e torna possível encontrar
+a distância.
 
 \subsection{LED RGB}
 
+    O LED RGB se diferencia dos LED's tradicionais pelo fato de poder utilizar diferentes tonalidades de
+vermelho, verde e azul, a fim de se obter uma cor diferente. Seu uso pode otimizar o código e torná-lo
+mais prático, visto que utiliza-se apenas um LED que pode representar as três cores, ao invés de 3 com
+cores específicas.
 
+\subsection{Liquid Crystal Display (LCD)}
 
-\subsection{LCD Display}
-
-
+    Ao utilizar um Arduino para realizar um cálculo ou uma operação, surge a possibilidade de exibir essa
+informação na tela de um LCD Display. Ele é formado por uma tela fina, com tamanho 16x2, e possui a mesma
+tecnologia utilizada em antigos televisores e monitores, sendo diferenciado pela sua leveza e praticidade.
 
 \section{Objetivos}
 
-\section{Desenvolvimento}
+    O projeto apresentado tem como objetivo criar um sistema capaz de reconhecer um obstáculo/objeto,
+reconhecer sua distância, identificar qual região se encontra e exibir essas informações em uma tela de 
+display. Para isso, foram utilizados dois Arduinos, um para realizar o reconhecimento do objeto, computar
+sua distância e acender um LED com a cor da região, e outro para exibir essas informações utilizando o
+LCD. Para comunicar os Arduinos, foi utilizada a comunicação serial.
+
+\section{Procedimentos}
+
+    O projeto foi realizado através da platadorma \emph{Tinkercad}, que disponibiliza todos os materiais
+necessários para a confeccção do sistema apresentado. Para montar o projeto. foram utilizados os seguintes
+materiais:
+    \begin{itemize}
+        \item 2 Arduinos Uno R3, sendo um Master e um Slave;
+        \item 1 LCD 16x2;
+        \item 1 Sensor de distância Ultrassônico;
+        \item 4 Resistores de 220 Ohm;
+        \item 1 LED RGB.
+    \end{itemize}
+
+    Primeiramente, o Arduino Principal (ou Arduino Master) exerce o papel de armazenar o "cérebro" do 
+projeto. É nele que se configura o sensor, manipulando as portas ECHO e TRIG (portas de recepção e 
+transmissão de sinais, respectivamente). Além disso, também configura o LED RGB, e faz o cálculo da 
+distância que o objeto está do sensor. Para fazer o cálculo, utiliza-se a velocidade e o tempo captado 
+pelo sensor, através da equação abaixo:
+
+    \begin{equation}
+        S=v.t \label{eq}
+    \end{equation}
+
+    Na equação \eqref{eq}, \emph{S} representa a distância que deseja-se obter, \emph{v} é a velocidade
+de propagação da onda do sensor ultrassônico, previamente calculado, cujo valor é de \emph{0,017175}, e
+o \emph{t} é o tempo dessa propagação, calculado através do pulso da porta ECHO.
+
+    Tratando-se das regiões do sensor,  partindo da distância mínima do sensor, que equivale a
+3 centímetros até 110 centímetros (1/3 da distância) tem-se a Região 3. Partindo de 110 até 220 
+centímetros (2/3 da distância), tem-se a Região 2, e de 220 até 330 centímetros	tem-se a Região 1,
+definida como a região mais distante do sensor.
+
+    Ademais, para o LED funcionar, é necessário criar funções que representam cada cor, sendo elas 
+vermelho, verde e azul. Como no projeto, a cor amarela foi utilizada, é necessário unir as cores vermelho
+e verde para obtê-la. Dessa forma, para acender o LED da cor desejada, de acordo com a região do objeto,
+criou-se uma condição dentro da programação do Arduino.
 
 \section{Resultados}
-    O Arduino Principal (ou Arduino Master), possui extrema importância quando almeja-se construir 
-um Sistema Embarcado. Ele é o cérebro do sistema microprocessado, e é o responsável por controlar
-os comandos executados em todo o sistema. Neste projeto, o Arduino Principal age de forma que proporciona
-o funcionamento pleno do sensor, atrelado à LED RGB, que emite a cor desejada, de acordo com a 
-distância que um objeto está do Sensor. Além disso, ele distingue qual a região de proximidade
+
 
 \section{Conclusões}
 

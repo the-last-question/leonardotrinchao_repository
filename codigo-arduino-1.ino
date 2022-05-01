@@ -36,7 +36,9 @@ void setup()
   pinMode(echoPin, INPUT);	//INPUT = Recebe
   pinMode(trigPin, OUTPUT);	//OUTPUT = Envia
   Serial.begin(9600);	//P/ comunicação serial
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(vermelho, OUTPUT);
+  pinMode(azul, OUTPUT);
+  pinMode(verde, OUTPUT);
 }
 
 void loop()

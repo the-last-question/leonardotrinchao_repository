@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.16)  30 APR 2022 17:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.16)  1 MAY 2022 19:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -323,12 +323,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
  (C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in paragraph at lines 78--82
-
- []
-
-[1{C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
+) [1{C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
 ]
@@ -343,21 +338,19 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2
-
-] (artigo-desafio2.aux) ) 
+[2] (artigo-desafio2.aux) ) 
 Here is how much of TeX's memory you used:
- 6092 strings out of 478582
- 101153 string characters out of 2838172
+ 6093 strings out of 478582
+ 101157 string characters out of 2838172
  684554 words of memory out of 3000000
- 24207 multiletter control sequences out of 15000+600000
+ 24208 multiletter control sequences out of 15000+600000
  505010 words of font info for 98 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,8n,77p,330b,292s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on artigo-desafio2.pdf (2 pages, 70531 bytes).
+{C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on artigo-desafio2.pdf (2 pages, 93053 bytes).
 PDF statistics:
- 35 PDF objects out of 1000 (max. 8388607)
+ 45 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

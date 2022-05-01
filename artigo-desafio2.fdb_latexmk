@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651351958 "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository/artigo-desafio2.tex" "artigo-desafio2.pdf" "artigo-desafio2" 1651351963
+["pdflatex"] 1651443344 "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository/artigo-desafio2.tex" "artigo-desafio2.pdf" "artigo-desafio2" 1651443348
   "C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1650985708 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1650123208 10253133 b381d8cf13fbbbafa203599e034d99d0 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -26,6 +26,8 @@
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr8.tfm" 1136765053 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy6.tfm" 1136765053 1116 933a60c408fc0a863a92debe84b2d294 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
+  "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1247596667 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1247596666 32716 08e384dc442464e7285e891af9f45947 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136864148 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136864148 44656 0cbca70e0534538582128f6b54593cca ""
@@ -74,9 +76,9 @@
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636710260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "artigo-desafio2.aux" 1651351962 1456 eed6069b946589c31ff4647d2915d6fc "pdflatex"
-  "artigo-desafio2.tex" 1651351957 6291 d8c9c8d89c0629192e80bc809c902d13 ""
-  "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository/artigo-desafio2.tex" 1651351957 6291 d8c9c8d89c0629192e80bc809c902d13 ""
+  "artigo-desafio2.aux" 1651443348 1493 5c88c718113944bd08a1dd1816bb1b37 "pdflatex"
+  "artigo-desafio2.tex" 1651443342 9410 f2d68333978110b9a7919addc4e33952 ""
+  "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository/artigo-desafio2.tex" 1651443342 9410 f2d68333978110b9a7919addc4e33952 ""
   (generated)
   "artigo-desafio2.aux"
   "artigo-desafio2.log"
