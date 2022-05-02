@@ -46,7 +46,7 @@
 \begin{document}
 
 \title{Desafio 2: Sistema Embarcado com Sensor e Display\\
-{\footnotesize \textsuperscript{*} Sistemas Embarcados: Prof. Marco Reis - marco.reis@ba.docente.senai.br}
+{\footnotesize Sistemas Embarcados: Prof. Marco Reis - marco.reis@ba.docente.senai.br}
 }
 
 \author{\IEEEauthorblockN{Leonardo Marques Trinchão}
@@ -148,10 +148,10 @@ display. Para isso, foram utilizados dois Arduinos, um para realizar o reconheci
 sua distância e acender um LED com a cor da região, e outro para exibir essas informações utilizando o
 LCD. Para comunicar os Arduinos, foi utilizada a comunicação serial.
 
-\section{Procedimentos}
+\section{Resultados}
 
     O projeto foi realizado através da platadorma \emph{Tinkercad}, que disponibiliza todos os materiais
-necessários para a confeccção do sistema apresentado. Para montar o projeto. foram utilizados os seguintes
+necessários para a confecção do sistema apresentado. Para montar o projeto. foram utilizados os seguintes
 materiais:
     \begin{itemize}
         \item 2 Arduinos Uno R3, sendo um Master e um Slave;
@@ -181,14 +181,26 @@ centímetros (2/3 da distância), tem-se a Região 2, e de 220 até 330 centíme
 definida como a região mais distante do sensor.
 
     Ademais, para o LED funcionar, é necessário criar funções que representam cada cor, sendo elas 
-vermelho, verde e azul. Como no projeto, a cor amarela foi utilizada, é necessário unir as cores vermelho
+vermelho, verde e azul. Como no projeto a cor amarela foi utilizada, é necessário unir as cores vermelho
 e verde para obtê-la. Dessa forma, para acender o LED da cor desejada, de acordo com a região do objeto,
-criou-se uma condição dentro da programação do Arduino.
+criou-se uma condição dentro da programação do Arduino, que dintingue essa região e aciona o LED da 
+cor desejada.
 
-\section{Resultados}
+    Além disso, o projeto exibe tanto a informação acerca da região do objeto, quanto o valor da distância
+encontrada. Isso acontece em outro Arduino, chamado de Arduino Complementar ou Arduino Slave, que recebe
+a informação transmitida pelo Arduino Master através da comunicação serial, e mostra a seguinte mensagem:
+\emph{"REGIAO 1: 266.76}. Isso significa que o objeto se encontra na região 1, ou seja, a "zona de segurança"
+do sensor, e o valor que segue é a distância, dada em centímetros.
 
+    É evidente que o sistema não funciona apenas com os códigos e a montagem do esquemático, devem existir
+conexões entre as portas dos Arduinos com os componentes utilizados. Para isso, tem-se que o sensor fica 
+atrelado às portas digitais do Arduino Master, à porta de 5 Volts e ao \emph{ground} "GRD", que representa
+o fio terra. A LED também está conectada às portas digitais e ao GRD. Por fim, no Arduino Master, também
+existe a conexão feita com o Arduino Slave, através das portas RX e TX, ambas já citadas no relatório.
 
-\section{Conclusões}
+    Tratando-se do Arduino Slave, têm-se como conexões, além das portas TX e RX, as portas digitais D8 até
+a D13 atreladas ao LCD, juntamente com o GRD e a porta de 5 Volts. Também existe um resistor de 220 Ohm para
+evitar a sobrecarga no \emph{display}.
 
 \section{Referências}
 
