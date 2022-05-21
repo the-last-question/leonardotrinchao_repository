@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1651530602 "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository-1/artigo-desafio2.tex" "artigo-desafio2.pdf" "artigo-desafio2" 1651530607
+["pdflatex"] 1653102252 "c:/Users/Leonardo Trinchão/Desktop/leonardotrinchao_repository-1/artigo-desafio2.tex" "artigo-desafio2.pdf" "artigo-desafio2" 1653102260
   "C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1650985708 82686 2381c3433487640bf26aa76a10db7eb2 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1650123208 10253133 b381d8cf13fbbbafa203599e034d99d0 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -69,9 +69,14 @@
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1636710260 12694 6c23725d50ab9d1e2d3ce482c58ffcf3 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636284872 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "artigo-desafio2.aux" 1651530607 1292 6edbfdd2d8e5a41e8a8f011bc54fd4ca "pdflatex"
-  "artigo-desafio2.tex" 1651530595 10727 0c72ca85723c47ff05224449a3f1f9d6 ""
-  "c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository-1/artigo-desafio2.tex" 1651530595 10727 0c72ca85723c47ff05224449a3f1f9d6 ""
+  "artigo-desafio2.aux" 1653102260 2056 a080a68c32e26ba4bd5b105ad7b84fbc "pdflatex"
+  "artigo-desafio2.tex" 1653102250 12441 5084f0f0690a5cf35a720fcf56e14e6b ""
+  "c:/Users/Leonardo Trinchão/Desktop/leonardotrinchao_repository-1/artigo-desafio2.tex" 1653102250 12441 5084f0f0690a5cf35a720fcf56e14e6b ""
+  "images/Arduino_UNO.png" 1653098484 33728 bfeb0cf6747b36fd0a8000bc72f6ae4a ""
+  "images/Display.png" 1653098467 9118 e378a914c6cccfec17a169a13a0fccd7 ""
+  "images/LED_RGB.png" 1653098441 1657 e1d8675febcfd3cca9fd0b94d9ac2077 ""
+  "images/Sensor.png" 1653098453 15612 f784fdbe2070a31f78d9542798ef2f2b ""
+  "images/esquematico.png" 1653101388 92063 357ad62676b5b1822d46f0b7bcf4c20e ""
   (generated)
   "artigo-desafio2.aux"
   "artigo-desafio2.log"

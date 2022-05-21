@@ -80,6 +80,17 @@ a linguagem de programação C/C++. Após ser programado, ele funciona sem a nec
 exemplo, devido à um \emph{loop} que existe em seu próprio código. Assim, a única exigência para o
 funcionamento do sistema é que haja uma fonte de alimentação.
 
+    É possível identificar abaixo como é a representação de um Arduíno UNO, utilizado no projeto, através
+da Fig.~\ref{fig}.
+
+\begin{figure}[htbp]
+    \centerline{
+        \includegraphics[width=8cm]{images/Arduino_UNO.png}
+        }
+    \caption{Exemplo de um Arduino UNO.}
+    \label{fig}
+    \end{figure}
+
 \subsubsection{Arduino Pricipal}
 
     O Arduino Principal/Arduino Master recebe este nome devido à sua importância e relevância no projeto.
@@ -127,6 +138,17 @@ utilizado em indústrias, para detectar a posição de materiais granulados, flu
 O sensor capta o tempo e a velocidade de propagação das ondas ultrassônicas, e torna possível encontrar
 a distância.
 
+É possível identificar abaixo como é a representação de um Sensor Ultrassônico, utilizado no projeto, 
+através da Fig.~\ref{fig}.
+
+\begin{figure}[htbp]
+    \centerline{
+        \includegraphics{images/Sensor.png}
+        }
+    \caption{Exemplo de um Sensor Ultrassônico.}
+    \label{fig}
+    \end{figure}
+
 \subsection{LED RGB}
 
     O LED RGB se diferencia dos LED's tradicionais pelo fato de poder utilizar diferentes tonalidades de
@@ -134,11 +156,33 @@ vermelho, verde e azul, a fim de se obter uma cor diferente. Seu uso pode otimiz
 mais prático, visto que utiliza-se apenas um LED que pode representar as três cores, ao invés de 3 com
 cores específicas.
 
+É possível identificar abaixo como é a representação de um LED RGB, utilizado no projeto, através
+da Fig.~\ref{fig}.
+
+\begin{figure}[htbp]
+    \centerline{
+        \includegraphics{images/LED_RGB.png}
+        }
+    \caption{Exemplo de um LED RGB.}
+    \label{fig}
+    \end{figure}
+
 \subsection{Liquid Crystal Display (LCD)}
 
     Ao utilizar um Arduino para realizar um cálculo ou uma operação, surge a possibilidade de exibir essa
 informação na tela de um LCD Display. Ele é formado por uma tela fina, com tamanho 16x2, e possui a mesma
 tecnologia utilizada em antigos televisores e monitores, sendo diferenciado pela sua leveza e praticidade.
+
+É possível identificar abaixo como é a representação de um Display 16x2, utilizado no projeto, através
+da Fig.~\ref{fig}.
+
+\begin{figure}[htbp]
+    \centerline{
+        \includegraphics[width=8cm]{images/Display.png}
+        }
+    \caption{Exemplo de um Display 16x2.}
+    \label{fig}
+    \end{figure}
 
 \section{Objetivos}
 
@@ -188,9 +232,10 @@ cor desejada.
 
     Além disso, o projeto exibe tanto a informação acerca da região do objeto, quanto o valor da distância
 encontrada. Isso acontece em outro Arduino, chamado de Arduino Complementar ou Arduino Slave, que recebe
-a informação transmitida pelo Arduino Master através da comunicação serial, e mostra a seguinte mensagem:
-\emph{"REGIAO 1: 266.76}. Isso significa que o objeto se encontra na região 1, ou seja, a "zona de segurança"
-do sensor, e o valor que segue é a distância, dada em centímetros.
+a informação transmitida pelo Arduino Master através da comunicação serial, e mostra, por exemplo,
+a seguinte mensagem: \emph{"REGIAO 2: 133.66}. Isso significa que o objeto se encontra na região 2, 
+ou seja, a "zona intermediária" do sensor, e o valor que segue é a distância, dada em centímetros, além
+da LED exibir a coloração amarela.
 
     É evidente que o sistema não funciona apenas com os códigos e a montagem do esquemático, devem existir
 conexões entre as portas dos Arduinos com os componentes utilizados. Para isso, tem-se que o sensor fica 
@@ -201,6 +246,17 @@ existe a conexão feita com o Arduino Slave, através das portas RX e TX, ambas 
     Tratando-se do Arduino Slave, têm-se como conexões, além das portas TX e RX, as portas digitais D8 até
 a D13 atreladas ao LCD, juntamente com o GRD e a porta de 5 Volts. Também existe um resistor de 220 Ohm para
 evitar a sobrecarga no \emph{display}.
+
+Abaixo na Fig.~\ref{fig}, é possível visualizar a forma esquemática de como o projeto está 
+representado, utilizando todos os elementos citados no relatório, além de fios de conexão.
+
+\begin{figure}[htbp]
+    \centerline{
+        \includegraphics[width=8cm]{images/esquematico.png}
+        }
+    \caption{Esquemático do projeto.}
+    \label{fig}
+    \end{figure}
 
 \section{Referências}
 

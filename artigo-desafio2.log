@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.16)  2 MAY 2022 19:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.4.16)  21 MAY 2022 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository-1/artigo-desafio2.tex"
-(c:/Users/Leonardo Trinchão/Desktop/GitHub-Desafio2/leonardotrinchao_repository-1/artigo-desafio2.tex
+**"c:/Users/Leonardo Trinchão/Desktop/leonardotrinchao_repository-1/artigo-desafio2.tex"
+(c:/Users/Leonardo Trinchão/Desktop/leonardotrinchao_repository-1/artigo-desafio2.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-02-24> (C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -277,7 +277,20 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
-) (artigo-desafio2.aux)
+) (artigo-desafio2.aux
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+)
 \openout1 = `artigo-desafio2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
@@ -316,17 +329,44 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 \c@lstlisting=\count302
-LaTeX Font Info:    Trying to load font information for U+msa on input line 110.
+<images/Arduino_UNO.png, id=1, 395.97937pt x 228.35312pt>
+File: images/Arduino_UNO.png Graphic file (type png)
+<use images/Arduino_UNO.png>
+Package pdftex.def Info: images/Arduino_UNO.png  used on input line 89.
+(pdftex.def)             Requested size: 227.62204pt x 131.26717pt.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 121.
  (C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 110.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 121.
  (C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1{C:/Users/Leonardo Trinchão/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}
 
 
-]
+ <./images/Arduino_UNO.png>]
+<images/Sensor.png, id=13, 177.16188pt x 100.87688pt>
+File: images/Sensor.png Graphic file (type png)
+<use images/Sensor.png>
+Package pdftex.def Info: images/Sensor.png  used on input line 147.
+(pdftex.def)             Requested size: 177.16144pt x 100.87662pt.
+<images/LED_RGB.png, id=14, 50.68938pt x 45.16875pt>
+File: images/LED_RGB.png Graphic file (type png)
+<use images/LED_RGB.png>
+Package pdftex.def Info: images/LED_RGB.png  used on input line 165.
+(pdftex.def)             Requested size: 50.68924pt x 45.16862pt.
+<images/Display.png, id=15, 289.58188pt x 140.02313pt>
+File: images/Display.png Graphic file (type png)
+<use images/Display.png>
+Package pdftex.def Info: images/Display.png  used on input line 182.
+(pdftex.def)             Requested size: 227.62204pt x 110.06367pt.
+ [2 <./images/Sensor.png> <./images/LED_RGB.png> <./images/Display.png>]
+<images/esquematico.png, id=24, 644.90938pt x 335.75438pt>
+File: images/esquematico.png Graphic file (type png)
+<use images/esquematico.png>
+Package pdftex.def Info: images/esquematico.png  used on input line 256.
+(pdftex.def)             Requested size: 227.62204pt x 118.50456pt.
+
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -338,19 +378,25 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[2] (artigo-desafio2.aux) ) 
+[3
+
+ <./images/esquematico.png>] (artigo-desafio2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 6072 strings out of 478582
- 100965 string characters out of 2838172
- 684554 words of memory out of 3000000
- 24195 multiletter control sequences out of 15000+600000
+ 6110 strings out of 478582
+ 101668 string characters out of 2838172
+ 683554 words of memory out of 3000000
+ 24226 multiletter control sequences out of 15000+600000
  500325 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,8n,77p,332b,275s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 68i,8n,77p,316b,275s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Leonardo Trinchão/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on artigo-desafio2.pdf (2 pages, 94646 bytes).
+Output written on artigo-desafio2.pdf (3 pages, 222689 bytes).
 PDF statistics:
- 45 PDF objects out of 1000 (max. 8388607)
+ 59 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
