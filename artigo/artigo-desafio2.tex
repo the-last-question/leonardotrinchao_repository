@@ -59,11 +59,17 @@ leonardo.trinchao@aln.senaicimatec.edu.br}
 \maketitle
 
 \begin{abstract}
+    
+The project consists, basically, in a prototype made using "Tinkercad",that simules the operation of 
+a system that captures the distance between the ultrasonic sensor and an object, and show the 
+information on two different ways: the first way is using a RGB LED that varies between red, yellow 
+and green colors, according to the proximity to the object. The second way is using a 16x2 display, 
+that shows which region of the object and your distance.
 
 \end{abstract}
     
 \begin{IEEEkeywords}
-    component, formatting, style, styling, insert
+    prototype, sensor, LED, display and distance.
 \end{IEEEkeywords}
     
 \section{Introdução}
@@ -81,14 +87,14 @@ exemplo, devido à um \emph{loop} que existe em seu próprio código. Assim, a �
 funcionamento do sistema é que haja uma fonte de alimentação.
 
     É possível identificar abaixo como é a representação de um Arduíno UNO, utilizado no projeto, através
-da Fig.~\ref{fig}.
+da Fig.~\ref{fig1}.
 
 \begin{figure}[htbp]
     \centerline{
-        \includegraphics[width=8cm]{images/Arduino_UNO.png}
+        \includegraphics[width=8cm]{imagens/Arduino_UNO.png}
         }
     \caption{Exemplo de um Arduino UNO.}
-    \label{fig}
+    \label{fig1}
     \end{figure}
 
 \subsubsection{Arduino Pricipal}
@@ -139,14 +145,14 @@ O sensor capta o tempo e a velocidade de propagação das ondas ultrassônicas, 
 a distância.
 
 É possível identificar abaixo como é a representação de um Sensor Ultrassônico, utilizado no projeto, 
-através da Fig.~\ref{fig}.
+através da Fig.~\ref{fig2}.
 
 \begin{figure}[htbp]
     \centerline{
-        \includegraphics{images/Sensor.png}
+        \includegraphics{imagens/Sensor.png}
         }
     \caption{Exemplo de um Sensor Ultrassônico.}
-    \label{fig}
+    \label{fig2}
     \end{figure}
 
 \subsection{LED RGB}
@@ -157,14 +163,14 @@ mais prático, visto que utiliza-se apenas um LED que pode representar as três 
 cores específicas.
 
 É possível identificar abaixo como é a representação de um LED RGB, utilizado no projeto, através
-da Fig.~\ref{fig}.
+da Fig.~\ref{fig3}.
 
 \begin{figure}[htbp]
     \centerline{
-        \includegraphics{images/LED_RGB.png}
+        \includegraphics{imagens/LED_RGB.png}
         }
     \caption{Exemplo de um LED RGB.}
-    \label{fig}
+    \label{fig3}
     \end{figure}
 
 \subsection{Liquid Crystal Display (LCD)}
@@ -174,14 +180,14 @@ informação na tela de um LCD Display. Ele é formado por uma tela fina, com ta
 tecnologia utilizada em antigos televisores e monitores, sendo diferenciado pela sua leveza e praticidade.
 
 É possível identificar abaixo como é a representação de um Display 16x2, utilizado no projeto, através
-da Fig.~\ref{fig}.
+da Fig.~\ref{fig4}.
 
 \begin{figure}[htbp]
     \centerline{
-        \includegraphics[width=8cm]{images/Display.png}
+        \includegraphics[width=8cm]{imagens/Display.png}
         }
     \caption{Exemplo de um Display 16x2.}
-    \label{fig}
+    \label{fig4}
     \end{figure}
 
 \section{Objetivos}
@@ -247,15 +253,15 @@ existe a conexão feita com o Arduino Slave, através das portas RX e TX, ambas 
 a D13 atreladas ao LCD, juntamente com o GRD e a porta de 5 Volts. Também existe um resistor de 220 Ohm para
 evitar a sobrecarga no \emph{display}.
 
-Abaixo na Fig.~\ref{fig}, é possível visualizar a forma esquemática de como o projeto está 
+Abaixo na Fig.~\ref{fig5}, é possível visualizar a forma esquemática de como o projeto está 
 representado, utilizando todos os elementos citados no relatório, além de fios de conexão.
 
 \begin{figure}[htbp]
     \centerline{
-        \includegraphics[width=8cm]{images/esquematico.png}
+        \includegraphics[width=8cm]{imagens/esquematico.png}
         }
     \caption{Esquemático do projeto.}
-    \label{fig}
+    \label{fig5}
     \end{figure}
 
 \section{Referências}

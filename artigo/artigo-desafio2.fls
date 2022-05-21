@@ -1,6 +1,6 @@
-PWD c:\Users\Leonardo Trinchão\Desktop\leonardotrinchao_repository-1
+PWD c:\Users\Leonardo Trinchão\Desktop\leonardotrinchao_repository\artigo
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Leonardo Trinchão\Desktop\leonardotrinchao_repository-1\artigo-desafio2.tex
+INPUT c:\Users\Leonardo Trinchão\Desktop\leonardotrinchao_repository\artigo\artigo-desafio2.tex
 OUTPUT artigo-desafio2.log
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\ieeetran\IEEEtran.cls
@@ -378,14 +378,14 @@ INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\00mikt
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmrc7t.tfm
-INPUT .\images\Arduino_UNO.png
-INPUT .\images\Arduino_UNO.png
-INPUT images\Arduino_UNO.png
-INPUT .\images\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
+INPUT imagens\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
 OUTPUT artigo-desafio2.pdf
-INPUT .\images\Arduino_UNO.png
-INPUT .\images\Arduino_UNO.png
-INPUT .\images\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
+INPUT .\imagens\Arduino_UNO.png
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsa.fd
@@ -418,34 +418,34 @@ INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmrc7t.vf
-INPUT .\images\Sensor.png
-INPUT .\images\Sensor.png
-INPUT images\Sensor.png
-INPUT .\images\Sensor.png
-INPUT .\images\Sensor.png
-INPUT .\images\Sensor.png
-INPUT .\images\Sensor.png
-INPUT .\images\LED_RGB.png
-INPUT .\images\LED_RGB.png
-INPUT images\LED_RGB.png
-INPUT .\images\LED_RGB.png
-INPUT .\images\LED_RGB.png
-INPUT .\images\LED_RGB.png
-INPUT .\images\LED_RGB.png
-INPUT .\images\Display.png
-INPUT .\images\Display.png
-INPUT images\Display.png
-INPUT .\images\Display.png
-INPUT .\images\Display.png
-INPUT .\images\Display.png
-INPUT .\images\Display.png
-INPUT .\images\esquematico.png
-INPUT .\images\esquematico.png
-INPUT images\esquematico.png
-INPUT .\images\esquematico.png
-INPUT .\images\esquematico.png
-INPUT .\images\esquematico.png
-INPUT .\images\esquematico.png
+INPUT .\imagens\Sensor.png
+INPUT .\imagens\Sensor.png
+INPUT imagens\Sensor.png
+INPUT .\imagens\Sensor.png
+INPUT .\imagens\Sensor.png
+INPUT .\imagens\Sensor.png
+INPUT .\imagens\Sensor.png
+INPUT .\imagens\LED_RGB.png
+INPUT .\imagens\LED_RGB.png
+INPUT imagens\LED_RGB.png
+INPUT .\imagens\LED_RGB.png
+INPUT .\imagens\LED_RGB.png
+INPUT .\imagens\LED_RGB.png
+INPUT .\imagens\LED_RGB.png
+INPUT .\imagens\Display.png
+INPUT .\imagens\Display.png
+INPUT imagens\Display.png
+INPUT .\imagens\Display.png
+INPUT .\imagens\Display.png
+INPUT .\imagens\Display.png
+INPUT .\imagens\Display.png
+INPUT .\imagens\esquematico.png
+INPUT .\imagens\esquematico.png
+INPUT imagens\esquematico.png
+INPUT .\imagens\esquematico.png
+INPUT .\imagens\esquematico.png
+INPUT .\imagens\esquematico.png
+INPUT .\imagens\esquematico.png
 INPUT artigo-desafio2.aux
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\base\8r.enc
 INPUT C:\Users\Leonardo Trinchão\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
