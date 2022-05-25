@@ -1,10 +1,10 @@
-// ARDUINO SECUNDÁRIO/ARDUINO SLAVE
+//Arduino Secundário
 
 #include <SoftwareSerial.h>
 #include <LiquidCrystal.h>
 #include <string.h>
 
-#define tmp 750
+#define tmp 3000
 
 String text;
 
