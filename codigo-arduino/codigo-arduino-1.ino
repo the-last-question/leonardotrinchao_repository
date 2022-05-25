@@ -1,17 +1,16 @@
-// ARDUINO PRINCIPAL/ARDUINO MASTER
+//Arduino Principal
 
 #include <SoftwareSerial.h>
 
-#define tmp 1500
+#define tmp 4000
 #define echoPin 2	//Definindo que a porta ECHO está na porta 2
-#define trigPin 3	//Definindo que a porta ECHO está na porta 3
+#define trigPin 3	//Definindo que a porta TRIG está na porta 3
+#define vermelho 12
+#define azul 10
+#define verde 9
 
 float tempo=0;	//Definindo a variável de duração
 float distancia=0;	//Definindo a variável de distancia
-//int animationSpeed = 0;
-int vermelho = 11;
-int azul = 10;
-int verde = 9;
 
 void led_vermelho(){
   digitalWrite(azul, LOW);
@@ -26,9 +25,9 @@ void led_verde(){
 }
 
 void led_amarelo(){
-  digitalWrite(azul, 0);
-  digitalWrite(verde, 255);
-  digitalWrite(vermelho, 255);
+  digitalWrite(azul, LOW);
+  digitalWrite(verde, HIGH);
+  digitalWrite(vermelho, HIGH);
 }
 
 void setup()
